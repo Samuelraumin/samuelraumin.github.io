@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at https://codepen.io/senzung/pen/kLhbi.
+
+ Actually inspired by the Tekken 6 Loading Screen. The effect is not really the same ...
