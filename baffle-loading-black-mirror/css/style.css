@@ -1,0 +1,12 @@
+div { 
+  font-size: 17px;
+  background: black;
+  color: white;
+  /*float: left;*/
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Droid Sans Mono', monospace;
+  
+  
+}
