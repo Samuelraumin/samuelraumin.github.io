@@ -1,12 +1,10 @@
 div { 
-  font-size: 17px;
-  background: black;
-  color: white;
+  font-size: 30px;
+  background: white;
+  color: black;
   /*float: left;*/
   font-weight: bold;
   text-align: center;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   font-family: 'Droid Sans Mono', monospace;
-  
-  
 }
