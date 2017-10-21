@@ -1,3 +1,4 @@
+/*Animation*/
 div { 
   font-size: 30px;
   background: white;
@@ -30,6 +31,11 @@ header::after {
   float: center;
   padding: 10px ;
 }
+
+/*Animation*/
+
+
+/*Button Start*/
 
 nav {
   float: center; 
@@ -76,3 +82,5 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+/*Button End*/
