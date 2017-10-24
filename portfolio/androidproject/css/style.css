@@ -87,3 +87,24 @@ nav a:hover::before {
 
 /*Button End*/
 
+/*Content for Links Stars*/
+.video1 {
+  position: absolute;
+	margin-left:775px;
+	margin-bottom: 700px;
+  height: 350px;
+  width: 350px;
+}
+.apk{
+  margin-left:650px;
+  margin-top: 400px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+}
+.aia{
+  margin-left:850px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+}
