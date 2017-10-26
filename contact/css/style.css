@@ -130,6 +130,5 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
   text-decoration: none;
-
 }
 /*Button End*/

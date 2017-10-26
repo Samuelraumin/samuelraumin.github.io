@@ -14,6 +14,10 @@
       }
   </style>
   
+<!--Favicon Start-->
+  <link rel="icon" type="image/png" href="/Resources/favicon.ico">
+<!--Favicon End-->
+  
 </head>
 
 <body>
@@ -43,7 +47,8 @@ Your browser does not support the video tag.
   <a href="/Resources/androidproject.aia">AIA Download (If using with MIT App Inventor 2)</a>
 </h2>
 <h3 class="writeups">
-  <a href="https://drive.google.com/drive/folders/0BzYkY2w3fIuXemY1dlAtclY2MEE?usp=sharing"> WriteUps </a>
+  <p>For our Android App Project, we created our app, FruitTap, based on the very famous mobile phone game, Fruit Ninja. We ran into various issues dealing with the building of this app. One of our biggest problems was the positioning of the fruit after a certain time. The system kept replacing the fruit sprites in various location incorrectly, which caused the game to crash commonly on the emulator. We later fixed the issue when we found a math error (definition points were upset) with the reset position and blocks in areas they need to be in. This gave us the opportunity to learn how the position math works in better detail. Another huge issue we had was the falling of the fruit. As the fruit is supposed to start from the top of the screen and fall to the bottom, the sprites were moving to the right. We later realized that more code was needed to define the direction in which the fruit needs to fall. One part that I did do independently was the management of the git. The git program was giving the team issues when it came to unrelated histories. The solution was later found online as a pull request was needed to make the git and home folder communicate with the addition of the extension --allow-unrelated-histories. I had a great time working with Dustin, as he was an excellent worker and team member. </p>
+  <p>In the video, the boot logo is the first to show. When the boot is finished with a 4-second uptime, the main menu appears. There are two functioning buttons at the bottom of the screen, “Start” and “About the Coders”. When you click on “Start”, the game brings you to a different screen, prompting the player with a ready screen. After a second of the ready screen, it disappears, starting the game. The program chooses a random number between 1 to 4, the sprites in order being Apple, Banana, Pineapple, and Bomb. The objective is to click the fruit before it hits the bottom of the screen. When the fruit is clicked, a sound will play to alert the player that the fruit has been tapped. If the fruit reaches the bottom of the screen, the system calls for a game over. Make sure not to click the bomb as that will end in a game over as well. When the bomb sprite is clicked, a different sound will play, alerting the player that the bomb was touched. The game does not count for the bomb touching the bottom of the screen as a game over. The system keeps track of your score labeled “Fruit Points”. The score resets when the game resets. When a game over is called, a splash screen saying game over will appear, along with a button labeled “Reset”. Once you hit the reset, the game starts over to the boot screen.</p>
 </h3>
 </body>
 </html>
