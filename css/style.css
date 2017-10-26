@@ -162,12 +162,6 @@ h1 {
 
 /*Nav Buttons*/
 
-body {
-position: relative;
-height: 300px;
-width: 500px; 
-}
-}
 
 .button {
   --border: 4px solid #6591c4;
