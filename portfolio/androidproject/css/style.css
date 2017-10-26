@@ -90,20 +90,26 @@ nav a:hover::before {
 /*Content for Links Stars*/
 .video1 {
   position: absolute;
-	margin-left:775px;
+	margin-left:1085px;
 	margin-bottom: 700px;
   height: 350px;
   width: 350px;
 }
 .apk{
-  margin-left:650px;
+  margin-left:47%;
   margin-top: 400px;
   text-decoration: none;
   position: relative;
   font-size: 20px;
 }
 .aia{
-  margin-left:850px;
+  margin-left:40%;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+}
+.writeups{
+  margin-left:48%;
   text-decoration: none;
   position: relative;
   font-size: 20px;
