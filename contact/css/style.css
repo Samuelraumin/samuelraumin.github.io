@@ -132,3 +132,10 @@ nav a:hover::before {
   text-decoration: none;
 }
 /*Button End*/
+
+/*Contact Info Start*/
+
+.contactinfo {
+  margin-left:39%;
+  margin-top:10%;
+}
