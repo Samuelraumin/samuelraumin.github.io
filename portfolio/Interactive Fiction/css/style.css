@@ -1,7 +1,8 @@
 /*Animation*/
+
 div { 
   font-size: 30px;
-  background: #54d2e0;
+  background: green;
   color: white;
   /*float: left;*/
   font-weight: bold;
@@ -14,21 +15,21 @@ body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-	background:#54d2e0;
+	background:green;
 }
 
 .container {
-  height:100px;
+  height: 100%;
 	width: 100px;
 }
 
 header::after {
   content: '';
-  /*display: table;*/
   clear: both;
 }
 
 .logo {
+  float: center;
   padding: 10px ;
 }
 
@@ -37,48 +38,43 @@ header::after {
 
 /*Button Start*/
 
-/*.button-one {*/
-/*  font-size: 18px;*/
-/*  margin-left: -4%;*/
-/*}*/
-
 nav {
   float: center; 
 }
 
 nav ul {
   margin: 0;
-  /*padding: 0;*/
+  padding: 0;
   list-style: none;
 }
 
 nav li {
   display: inline-block;
-  margin:30%;
-  margin-top: -50%;
-  padding-bottom: 75%;
+  margin-left: 50px;
+  padding-top: 170px;
 
   position: relative;
 }
 
 nav a {
-  color: #444;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
 }
 
 nav a:hover {
-  color: #000;
-  text-decoration: none;
+  color: white;
 }
 
 nav a::before {
   content: '';
+  display: block;
   height: 3px;
-  background-color: #444;
+  background-color: white;
 
   position: absolute;
+  top: auto;
   width: 0%;
 
   transition: all ease-in-out 250ms;
@@ -86,41 +82,44 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-  text-decoration: none;
 }
-
-/*.button-two {*/
-/*  font-size: 18px;*/
-/*  margin-left: -9%;*/
-/*  margin-top:-30%;*/
-/*}*/
 
 /*Button End*/
 
-/*FruitTap Start*/
+/*Image Start*/
 
-.fruittaptext{
+/*Content for Links Start*/
+.video1 {
+  position: absolute;
+	margin-left:41%;
+	margin-bottom: 700px;
+  height: 350px;
+  width: 350px;
+}
+.apk{
+  margin-left:46%;
+  margin-top: 400px;
+  text-decoration: none;
+  position: relative;
   font-size: 20px;
-  color: #000;
-  text-transform: uppercase;
-  margin-left:47%;
-  padding-top: 50%;
 }
-
-.fruittaplogo{
-  margin-left:43%;
-}
-/*Fruittap End*/
-
-/*Interactive Story Start*/
-.interstorytext{
+.aia{
+  margin-left:41%;
+  text-decoration: none;
+  position: relative;
   font-size: 20px;
-  color: #000;
-  text-transform: uppercase;
-  margin:0%;
-  padding-top: 50%;
+}
+.writeups{
+  margin-left:0%;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
 }
 
-.interstorylogo{
-  margin-left:-12%;
+/*Content for Links End*/
+
+/*Diagram Start*/
+
+.interstoryimage{
+  margin-left: 20%
 }
