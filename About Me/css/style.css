@@ -88,9 +88,13 @@ nav a:hover::before {
 
 /*Content for Links Start*/
 .aboutme{
-  margin-left:15%;
+  margin-left:5%;
   text-decoration: none;
   position: relative;
   font-size: 20px;
+}
+
+.meimage{
+  margin-left:43%;
 }
 
