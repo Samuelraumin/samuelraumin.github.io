@@ -14,10 +14,10 @@ body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-  background:url(https://media.giphy.com/media/l46C6sdSa5DVSJnLG/giphy.gif);
+	background: #eb01a5;
+  background-image:linear-gradient(#eb01a5, #d13531);
   color:white;
 }
-
 .container {
   height: 10px;
 	width: 100px;
