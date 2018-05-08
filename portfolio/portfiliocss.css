@@ -8,13 +8,14 @@ div {
   text-align: center;
   /*box-sizing: border-box;*/
   font-family: 'Droid Sans Mono', monospace;
+  background-image:linear-gradient(#a1f3ff, #ee82ee);
 }
 
 body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-	background:#54d2e0;
+	background-image:linear-gradient(#ee82ee, #a1f3ff);
 }
 
 .container {
@@ -121,8 +122,7 @@ header::after {
 .RSAlogo{
   display: flex;
   margin-right:44%;
-  margin-left:44%;
+  margin-left:45%;
   margin-top:1%;
-  width: 400px;
-  height: 200px;
+  height: 150px;
 }
