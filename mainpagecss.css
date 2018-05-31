@@ -2,10 +2,10 @@
 /*Triangle Animation*/
 body {
   font-family: 'Lato', sans-serif;
-  height: 90vh;
+  height: 100vh;
   display: -ms-grid;
   display: grid;
-  background: #54d2e0;
+  background:linear-gradient(to bottom right,#ff85a2, #ffd1dc);
 }
 body > * {
   margin: auto;
@@ -79,7 +79,7 @@ h1 {
 .square {
   width: 3.75rem;
   height: 3.75rem;
-  background: #c0f0f4;
+  background: #ff85a2;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
@@ -161,7 +161,7 @@ h1 {
 /*Nav Buttons Start*/
 
 .button {
-  --border: 4px solid #6591c4;
+  --border: 4px solid #ffd1dc;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -180,7 +180,7 @@ h1 {
   display: block;
   position: relative;
   padding: 1.4em 4em;
-  background: #9cb9d9;
+  background: #ff85a2;
   color: white;
   border: var(--border);
   -webkit-transition: -webkit-transform .2s ease;

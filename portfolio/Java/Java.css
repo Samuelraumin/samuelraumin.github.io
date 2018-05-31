@@ -1,41 +1,39 @@
 /*Animation*/
+
 div { 
   font-size: 30px;
-  background: #54d2e0;
+  background-color:transparent;
   color: white;
   /*float: left;*/
   font-weight: bold;
   text-align: center;
-  /*box-sizing: border-box;*/
   font-family: 'Droid Sans Mono', monospace;
-  background-image:linear-gradient(#a1f3ff, #ee82ee);
 }
 
 body {
 	margin: 0;
-	height: 100vh;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-	background-image:linear-gradient(#ee82ee, #a1f3ff);
+	background: #eb01a5;
+  background-image:linear-gradient(#ff85a2, #ffd1dc);
+  color:white;
 }
-
 .container {
-  height:100px;
+  height: 10px;
 	width: 100px;
 }
 
 header::after {
   content: '';
-  /*display: table;*/
   clear: both;
 }
 
 .logo {
+  float: center;
   padding: 10px ;
 }
 
-/*Animation*/
-
+/*Animation End*/
 
 /*Button Start*/
 .button {
@@ -89,48 +87,55 @@ header::after {
 }
 /*Button End*/
 
-/*FruitTap Start*/
+/*Image Start*/
 
-.fruittaptext{
-  font-size: 20px;
-  color: #000;
+/*Content for Links Start*/
+.video1 {
+  display: flex;
+  height: 350px;
+  width: 350px;
+}
+.apk{
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
   text-transform: uppercase;
-  margin:48%;
-  text-align:center;
+  position: relative;
+  overflow:hidden;
 }
-
-.fruittaplogo{
-  margin-left:45%;
-  margin-right:50%;
-}
-/*Fruittap End*/
-
-/*Interactive Story Start*/
-.interstorytext{
-  font-size: 20px;
-  color: #000;
+.aia{
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
   text-transform: uppercase;
-  margin:0%;
-  padding-top: 50%;
+  position: relative;
+  overflow:hidden;
+}
+.writeups{
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  position: relative;
+  overflow:hidden;
 }
 
-.interstorylogo{
-  display: flex;
-  margin-right:44%;
-  margin-left:46%;
-  margin-top:1%;
+/*Content for Links End*/
+
+/*Diagram Start*/
+
+.interstoryimage{
+  flex:1 1 auto;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 23%;
 }
-.RSAlogo{
-  display: flex;
-  margin-right:44%;
-  margin-left:45%;
-  margin-top:1%;
-  height: 150px;
-}
-.javalogo{
-  display: flex;
-  margin-right:44%;
-  margin-left:45%;
-  margin-top:1%;
-  height: 150px;
+
+.gameimage{
+  margin-left:5%;
 }
