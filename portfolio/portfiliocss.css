@@ -122,15 +122,16 @@ header::after {
 }
 .RSAlogo{
   display: flex;
-  margin-right:44%;
+  /*margin-right:44%;*/
   margin-left:45%;
   margin-top:1%;
   height: 150px;
 }
 .javalogo{
-  display: flex;
-  margin-right:44%;
-  margin-left:45%;
-  margin-top:1%;
+  /*display: flex;*/
+  /*margin-right:44%;*/
+  /*margin-left:45%;*/
+  /*margin-top:1%;*/
+  margin-left: 50%;
   height: 150px;
 }
